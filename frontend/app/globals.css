@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Blob animations */
+@keyframes blob {
+  0%, 100% { transform: translate(0px,0px) scale(1); }
+  33% { transform: translate(20px,-30px) scale(1.05); }
+  66% { transform: translate(-15px,15px) scale(0.95); }
+}
+
+.animate-blob { animation: blob 7s infinite; }
+.animation-delay-3000 { animation-delay: 3s; }
+
